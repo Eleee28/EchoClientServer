@@ -40,7 +40,7 @@ Once the server is running, you can start the client by providing the server's I
 - ``<message>``: The message to be echoed.
 
 ## Error Handling
-The programs implement robust error handling. If any system calls faill (e.g., socket creation, connection, ot data transmission), an error message will be printed, and the program will exit.
+The programs implement robust error handling. If any system calls fail (e.g., socket creation, connection, ot data transmission), an error message will be printed, and the program will exit.
 
 ## Notes
 - The server runs indefinitely, waiting for client connections. To stop the server, use ``Ctrl + C``.
