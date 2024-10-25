@@ -33,7 +33,7 @@ The server needs to be run first. It listens on a specified port for incoming co
 ### Running the Client
 Once the server is running, you can start the client by providing the server's IP address, the port number the server is listening on and the echo message.
 ~~~ bash
-./echoClient <serverIP> <serverPort> <message
+./echoClient <serverIP> <serverPort> <message>
 ~~~
 - ``<serverIP>``: The IP address of the server.
 - ``<serverPort>``: The port number on which the server is listening.
